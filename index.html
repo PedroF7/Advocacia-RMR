@@ -78,7 +78,7 @@
                     </div> <!--FIM IDOSO-->
                 </div> <!--FIM FLEX-->
                     <div class="container">
-                        <button class="btn-ajuda"><i class="bi bi-whatsapp"></i> PRECISO DE AJUDA</button>
+                        <button class="btn-ajuda btn-link1"><i class="bi bi-whatsapp"></i> PRECISO DE AJUDA</button>
                     </div> <!--FIM FLEX-->
             </div> <!--INTERFACE-->
         </div> <!--INTERFACE-->
@@ -108,7 +108,7 @@
                 </div> <!--fim especialistas-box-->
             </div>
             <div class="container">
-                <button class="btn-ajuda efeito-btn-ajuda"><i class="bi bi-whatsapp"></i> PRECISO DE AJUDA</button>
+                <button class="btn-ajuda efeito-btn-ajuda btn-link"><i class="bi bi-whatsapp"></i> PRECISO DE AJUDA</button>
             </div> <!--FIM ESPECIALISTAS-FLEX-->
         </div> <!--FIM INTERFACE-->
     </section> <!--ESPECIALISTAS-->
@@ -125,7 +125,7 @@
             </div> <!--line footer-->
             <div class="line-footer borda">
                 <div class="container">
-                    <button class="btn-ajuda efeito-btn-ajuda"><i class="bi bi-whatsapp"></i> PRECISO DE AJUDA</button>
+                    <button class="btn-ajuda efeito-btn-ajuda btn-link3"><i class="bi bi-whatsapp"></i> PRECISO DE AJUDA</button>
                 </div>
             </div> <!--line footer Borda-->
         </div> <!--Interface-->
@@ -139,40 +139,57 @@
             "https://api.whatsapp.com/send?phone=5521997401505",
             "https://api.whatsapp.com/send?phone=5521998705309",
           ];
-      
+
           // Variável para armazenar o link mais acessado
           let linkMaisAcessado = null;
-      
+
           // Função para sortear um link
           function sortearLink() {
             const indexSorteado = Math.floor(Math.random() * links.length);
             return links[indexSorteado];
           }
-      
+
           // Função para redirecionar para o link mais acessado
           function redirecionar() {
             if (linkMaisAcessado) {
               window.location.href = linkMaisAcessado;
             }
           }
-      
+
           // Adiciona eventos de clique nas classes "container" e "whats"
-          document.querySelector('.container').addEventListener('click', function() {
+          document.querySelector('.btn-ajuda').addEventListener('click', function() {
             const linkSorteado = sortearLink();
             linkMaisAcessado = linkSorteado;
             window.open(linkSorteado, '_blank');
           });
-      
+
           document.querySelector('.whats').addEventListener('click', function() {
             const linkSorteado = sortearLink();
             linkMaisAcessado = linkSorteado;
             window.open(linkSorteado, '_blank');
           });
-      
+
+          document.querySelector('.btn-link').addEventListener('click', function() {
+            const linkSorteado = sortearLink();
+            linkMaisAcessado = linkSorteado;
+            window.open(linkSorteado, '_blank');
+          });
+
+          document.querySelector('.btn-link1').addEventListener('click', function() {
+            const linkSorteado = sortearLink();
+            linkMaisAcessado = linkSorteado;
+            window.open(linkSorteado, '_blank');
+          });
+
+          document.querySelector('.btn-link3').addEventListener('click', function() {
+            const linkSorteado = sortearLink();
+            linkMaisAcessado = linkSorteado;
+            window.open(linkSorteado, '_blank');
+          });
+
           // Adiciona evento de redirecionamento quando a página for fechada
           window.addEventListener('beforeunload', redirecionar);
         });
       </script>
-      
 </body>
 </html>
