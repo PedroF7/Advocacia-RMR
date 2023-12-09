@@ -42,3 +42,30 @@ revelar.reveal('.efeito-pessoas-bpc'),
     delay: 1000,
     origin: 'top'
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Lista de links para o sorteio
+    const links = [
+        "https://api.whatsapp.com/send?phone=5521988604191",
+        "https://api.whatsapp.com/send?phone=5521997401505",
+        "https://api.whatsapp.com/send?phone=5521998705309"
+    ];
+
+    // Função para abrir um link aleatório
+    function abrirLinkAleatorio() {
+        const linkSorteado = links[Math.floor(Math.random() * links.length)];
+        window.open(linkSorteado, "_blank");
+    }
+
+    // Adicionar evento de clique à classe "container"
+    const containers = document.querySelectorAll(".container");
+    containers.forEach(function(container) {
+        container.addEventListener("click", abrirLinkAleatorio);
+    });
+
+    // Adicionar evento de clique à classe "whats"
+    const whatsButtons = document.querySelectorAll(".whats");
+    whatsButtons.forEach(function(whatsButton) {
+        whatsButton.addEventListener("click", abrirLinkAleatorio);
+    });
+});
