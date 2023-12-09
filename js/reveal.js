@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const links = [
         "https://api.whatsapp.com/send?phone=5521988604191",
         "https://api.whatsapp.com/send?phone=5521997401505",
-        "https://api.whatsapp.com/send?phone=5521998705309"
+        "https://api.whatsapp.com/send?phone=5521998705309",
     ];
 
     // Função para abrir um link aleatório
