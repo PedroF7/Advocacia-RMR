@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
-@media screen and (max-width:1020px){
+
+
+@media screen and  (max-width:1020px){
     /* CLASSES GERAIS */
     .flex{
         flex-direction: column-reverse;
@@ -68,6 +70,10 @@
         padding: 40px 8%;
     }
 
+    .especialistas-box img{
+        max-width: 100%;
+    }
+
     /* RODAPÉ */
     footer{
         box-shadow: none;
@@ -80,5 +86,12 @@
 
     footer .line-footer{
         text-align: center;
+    }
+}
+
+
+@media screen and (min-width:477px) and (max-width:999px){
+    .especialistas-box{
+        flex-direction: column;
     }
 }

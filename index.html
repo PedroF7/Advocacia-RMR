@@ -90,19 +90,19 @@
             <h1>NOSSOS ESPECIALISTAS</h1>
             <div class="especialistas-flex">
                 <div class="especialistas-box">
-                    <img src="imagens/especialistas/Sem título-1.png" alt="Michel ramalho de Castro">
+                    <img src="imagens/especialistas/michel.png" alt="Michel ramalho de Castro">
                     <h2>Michel Ramalho de Castro <br>OAB/RJ 210.555</h2>
                     <p>Especialista em benefícios previdenciários e sócio do RMR Advocacia Especializada</p>
                 </div> <!--fim especialistas-box-->
     
-                <div class="especialistas-box matheus-box">
-                    <img src="imagens/especialistas/Sem título-2.png" alt="Kayque Machado">
+                <div class="especialistas-box">
+                    <img src="imagens/especialistas/kayque.png" alt="Kayque Machado">
                     <h2>Kayque Machado <br>OAB/RJ 241.254</h2>
                     <p>Especialista em benefícios previdenciários e sócio do RMR Advocacia Especializada</p>
                 </div> <!--fim especialistas-box-->
     
-                <div class="especialistas-box kayque-box">
-                    <img src="imagens/especialistas/Sem título-3.png" alt="Matheus Ramos da Silva Estagiário de Direito">
+                <div class="especialistas-box">
+                    <img src="imagens/especialistas/Matheus.png" alt="Matheus Ramos da Silva Estagiário de Direito">
                     <h2>Matheus Ramos da Silva <br>Advogado</h2>
                     <p>Especialista em benefícios previdenciários e sócio do RMR Advocacia Especializada</p>
                 </div> <!--fim especialistas-box-->
@@ -130,49 +130,5 @@
             </div> <!--line footer Borda-->
         </div> <!--Interface-->
     </footer>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          // Links a serem sorteados
-          const links = [
-            "https://api.whatsapp.com/send?phone=5521988604191",
-            "https://api.whatsapp.com/send?phone=5521997401505",
-            "https://api.whatsapp.com/send?phone=5521998705309",
-          ];
-      
-          // Variável para armazenar o link mais acessado
-          let linkMaisAcessado = null;
-      
-          // Função para sortear um link
-          function sortearLink() {
-            const indexSorteado = Math.floor(Math.random() * links.length);
-            return links[indexSorteado];
-          }
-      
-          // Função para redirecionar para o link mais acessado
-          function redirecionar() {
-            if (linkMaisAcessado) {
-              window.location.href = linkMaisAcessado;
-            }
-          }
-      
-          // Adiciona eventos de clique nas classes "container" e "whats"
-          document.querySelector('.container').addEventListener('click', function() {
-            const linkSorteado = sortearLink();
-            linkMaisAcessado = linkSorteado;
-            window.open(linkSorteado, '_blank');
-          });
-      
-          document.querySelector('.whats').addEventListener('click', function() {
-            const linkSorteado = sortearLink();
-            linkMaisAcessado = linkSorteado;
-            window.open(linkSorteado, '_blank');
-          });
-      
-          // Adiciona evento de redirecionamento quando a página for fechada
-          window.addEventListener('beforeunload', redirecionar);
-        });
-      </script>
-      
 </body>
 </html>
