@@ -1,97 +1,111 @@
 @charset "UTF-8";
 
-
-
-@media screen and  (max-width:1020px){
-    /* CLASSES GERAIS */
+/* TELAS PEQUENAS*/
+@media only screen and (max-width: 480px) {
+    /* CONFIGURAÇÕES GERAIS */
+    section{
+        padding: 6% 6%;
+    }
     .flex{
         flex-direction: column-reverse;
     }
 
-    h2.titulo{
-        font-size: 35px;
-        line-height: 30px;
-    }
-
-    button.whats{
-    height: 60px;
-    font-size: 2em;
-    height: 65px;
-    width: 60px;
-    }
-
-    section{
-        margin-left: 8px;
-    }
-
-    /* CABEÇALHO */
+    /* CABEÇALHO*/
     header{
-        padding-top: 5vh;
         background-image: url(../imagens/background-header-black.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position:  left center;
+        background-position: left center;
     }
 
-    .text h1{
-        font-size: 2.4em;
-    }
-
-    .text p{
-        font-size: 1.6em;
-    }
-    /* TOPO DO SITE */
-    section.meio-site{
-        padding: 4% 8%;
-    }
-
+    /* MEIO DO SITE */
     section.meio-site img{
         max-width: 100%;
     }
-    
-    .meio-site h1{
-        font-size: 35px;
+
+    section.meio-site .txt-meio-site p{
+        font-size: 1.5em;
     }
 
-    .meio-site p{
-        font-size: 1.4em;
+    /* ESPECIALISTAS */
+    section.especialistas h1{
+        font-size: 2.3em;
     }
 
-    .meio-site .img-meio-site img{
-        width: 450px;
+    .especialistas-box{
+        width: 45vw;
     }
-
-    .meio-site .flex{
-        gap: 40px;
-    }
-
-    /* ESPECIALIDADES */
-    section.especialistas{
-        padding: 40px 8%;
-    }
-
     .especialistas-box img{
+        width: 50vw;
+    }
+  }
+
+ 
+  /* PAISAGEM */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    /*CONFIGURAÇÕES GERAIS*/
+    section{
+        padding: 6% 6%;
+    }
+    .flex{
+        flex-direction: column-reverse;
+    }
+
+    /* CABEÇALHO*/
+    header{
+        background-image: url(../imagens/background-header-black.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left center;
+    }
+
+    /* MEIO SITE*/
+    section.meio-site img{
         max-width: 100%;
     }
 
-    /* RODAPÉ */
-    footer{
-        box-shadow: none;
-        width: 100%;
-    }
-    footer .flex{
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    footer .line-footer{
-        text-align: center;
-    }
-}
-
-
-@media screen and (min-width:477px) and (max-width:999px){
+    /* ESPECIALISTAS*/
     .especialistas-box{
-        flex-direction: column;
+        width: 45vw;
     }
-}
+    .especialistas-box img{
+        width: 45vw;
+    }
+  }
+
+  
+  /* tablets */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /*CONFIGURAÇÕES GERAIS */
+    section{
+        padding: 6% 6%;
+    }
+    .flex{
+        flex-direction: column-reverse;
+    }
+
+    /* MEIO SITE*/
+    section.meio-site .txt-meio-site p{
+        font-size: 2.2em;
+    }
+
+    /* ESPECIALISTAS*/
+    .especialistas-box{
+        width: 45vw;
+        margin-bottom: 20px;
+    }
+    section.especialistas .especialistas-box img{
+        width: 50vw;
+    }
+
+    .especialistas .especialistas-box h2{
+        font-size: 40px;
+    }
+
+    .especialistas .especialistas-box p{
+        font-size: 33px;
+        padding-top: 30px;
+    }
+
+  }
+  
