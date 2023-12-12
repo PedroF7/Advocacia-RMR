@@ -31,8 +31,6 @@
     section.especialistas h1{
         font-size: 2.3em;
     }
-
-
   }
 
  
@@ -64,7 +62,7 @@
         width: 45vw;
     }
     .especialistas-box img{
-        width: 45vw;
+        width: 50vw;
     }
   }
 
@@ -100,7 +98,6 @@
     .especialistas .especialistas-box p{
         font-size: 33px;
         padding-top: 30px;
-    }
-
+    }      
   }
   
