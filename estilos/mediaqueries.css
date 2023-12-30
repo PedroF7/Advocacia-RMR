@@ -11,12 +11,17 @@
     }
 
     /* CABEÇALHO*/
+    header .flex{
+        gap: 55px;
+    }
+
     header{
         background-image: url(../imagens/background-header-black.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left center;
     }
+
 
     /* MEIO DO SITE */
     section.meio-site img{
