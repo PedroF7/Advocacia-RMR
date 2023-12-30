@@ -21,10 +21,6 @@
     margin: 0 auto;
 }
 
-.efeito-text, .efeito-btn-ajuda, .efeito-txt-topo-site, .efeito-img-topo, .efeito-pessoas-bpc {
-    visibility: hidden;
-}
-
 button.whats {
     position: fixed;
     bottom: 20px;
