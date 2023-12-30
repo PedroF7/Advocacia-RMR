@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
       window.open(linkSorteado, '_blank');
     });
 
-    document.querySelector('.btn-link3').addEventListener('click', function() {
+    document.querySelector('.btn-link').addEventListener('click', function() {
       const linkSorteado = sortearLink();
       linkMaisAcessado = linkSorteado;
       window.open(linkSorteado, '_blank');

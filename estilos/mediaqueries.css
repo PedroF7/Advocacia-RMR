@@ -31,6 +31,12 @@
     section.especialistas h1{
         font-size: 2.3em;
     }
+
+    /* FOOTER */
+    footer .line-footer{
+        justify-content: center;
+        flex-direction: column;
+    }
   }
 
  
@@ -63,6 +69,12 @@
     }
     .especialistas-box img{
         width: 50vw;
+    }
+
+    /* FOOTER */
+    footer .line-footer{
+        justify-content: center;
+        flex-direction: column;
     }
   }
 
@@ -98,6 +110,17 @@
     .especialistas .especialistas-box p{
         font-size: 33px;
         padding-top: 30px;
-    }      
+    }
+    
+    /* FOOTER */
+    footer .line-footer{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    footer .line-footer iframe{
+        width: 450px;
+        height: 240px;
+    }
   }
   

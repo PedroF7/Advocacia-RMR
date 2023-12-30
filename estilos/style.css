@@ -59,12 +59,10 @@ button.whats:hover{
     display: flex;
 }
 
-
 body{
     width: 100%;
     min-height: 100vh;
 }
-
 
 .btn-ajuda{
     background-color: green;
@@ -90,11 +88,7 @@ body{
     transform: scale(1.1);
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 /* CABEÇALHO */
 header {
     position: relative; 
@@ -180,12 +174,10 @@ section.direito-bpc{
     color: white;
     min-height: 70vh;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-section.direito-bpc{
     padding: 40px 5%;
     margin: auto;
 }
+
 
 section.direito-bpc .flex{
     gap: 60px;
@@ -201,7 +193,6 @@ section.direito-bpc .flex{
 .direito-bpc  h1{
     font-size: 40px;
 }
-
 
 section.direito-bpc .pessoas-bpc{
     padding: 40px;
@@ -232,11 +223,11 @@ section.direito-bpc .pessoas-bpc:hover{
     font-size: 17px;
 }
 
-section.direito-bpc button{
-    margin-top: 2.5em;
+.container-btn{
+    text-align: center;
+    margin-top: 34px;
 }
 
-/* ESPECIALISTAS */
 /* ESPECIALISTAS */
 section.especialistas {
     padding: 5% 4%;
@@ -315,120 +306,36 @@ footer{
     padding: 40px 4%;
     box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.139);
     background-color: black;
-}
-
-footer .flex{
-    justify-content: space-between;
+    color: white;
 }
 
 footer .line-footer{
     padding: 20px 0;
-}
-
-.borda{
-    border-top: 2px solid #a36f5a;
-}
-
-footer .line-footer p i{
-    bottom: 20px;
-    font-size: 2em;
-    height: 9vh;
-    border-radius: 50%;
-    right: 10px; 
-    padding: 10px;
-    margin-right: 10px;
-    background-color: rgb(41, 203, 41);
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: .2s;
-}
-
-footer .line-footer p i:hover{
-    transform: scale(1.10);
-    box-shadow: 1px 1px 1px #00ff08;
-}
-
-.line-footer p a{
-    color: white;
-    font-size: 1.2em;
-    text-decoration: none;
-}
-
-.line-footer p a:hover{
-    text-decoration: underline;
-}
-
-
-/* section.especialistas{
-    padding: 5% 4%;
-    background-color: black;
-    color: white;
-}
-
-section.especialistas .flex{
-    gap: 65px;
-    max-width: 100%;
-    height: auto;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
+    gap: 51px;
 }
 
-section.especialistas .especialistas-box{
-    padding: 40px;
-    border: 2px solid #ffffffd5;
-    border-radius: 20px;
-    transition: .2s;
-    width: 27vw;
-    box-shadow: 0 0 12px white;
-}
-
-.especialistas h1{
+.container-footer h2{
     text-align: center;
-    font-size: 2em;
-    padding-bottom: 70px;
-    font-size: 2.7em;
-    font-family: 'Aoboshi One', serif;
 }
 
-.especialistas-box img{
-    width: 320px;
-    border-radius: 20px;
-        max-width: 100%;
-    height: auto;
-    padding-right: 5vh;
-}
-
-section.especialistas .especialistas-box:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 15px white;
-}
-
-
-.kayque-box{
+.container-footer p{
     padding-top: 10px;
+    font-size: 1.2em;
 }
 
-.kayque-box p{
+.container-footer iframe{
+    border-radius: 20px;
     padding-top: 15px;
 }
 
-.especialistas .especialistas-box h2{
-    font-size: 27px;
-    margin: 15px 0;
-    text-align: center;
+.container-footer p a{
+    color: white;
+    text-decoration: none;
 }
 
-.especialistas .especialistas-box p{
-    text-align: center;
+.container-footer p a:hover{
+    text-decoration: underline;
 }
-
-.matheus-box p{
-    padding-top: 10px;
-}
-
-.especialistas .btn-ajuda{
-    margin-top: 10vh;
-    justify-content: center;
-    align-items: center;
-} */
