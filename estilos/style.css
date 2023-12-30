@@ -287,13 +287,6 @@ section.especialistas .especialistas-box:hover {
 .especialistas .especialistas-box p {
     font-size: 22px;
 }
-
-section.especialistas .btn-ajuda {
-    margin-top: 10vh;
-    justify-content: center;
-    align-items: center;
-}
-
 /* ESTILO DO RODAPÉ */
 
 footer{
