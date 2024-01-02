@@ -68,7 +68,6 @@ body{
     border-radius: 10px;
     font-weight: bold;
     color: white;
-    font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     transition: .2s;
     border: rgba(255, 255, 255, 0.507);
@@ -232,8 +231,51 @@ section.direito-bpc .pessoas-bpc:hover{
 
 .container-btn{
     text-align: center;
-    margin-top: 34px;
+    margin: 20px;
 }
+
+section#direito-bpc{
+    padding: 5% 4%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, white, rgb(171, 168, 168));
+}
+
+section#direito-bpc h1{
+    text-align: center;
+    font-size: 2.7em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+section#direito-bpc .flex{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    gap: 90px;
+}
+
+
+section#direito-bpc  .box-direito-bpc img{
+    border-radius: 20px;
+    width: 550px;
+    filter: drop-shadow(7px 7px 1px rgb(97, 96, 96));
+    transition: .2s;
+}
+
+section#direito-bpc  .box-direito-bpc img:hover{
+    transform: scale(1.01);
+}
+
+section#direito-bpc  .box-direito-bpc h2, section#direito-bpc  .box-direito-bpc p{
+    text-align: center;
+    padding-top: 7px;
+}
+
 
 /* ESPECIALISTAS */
 section.especialistas {
@@ -242,11 +284,6 @@ section.especialistas {
     color: white;
     text-align: center;
     margin: auto;
-}
-
-section.especialistas .interface {
-    max-width: 100%;
-    margin: 0 auto;
 }
 
 section.especialistas .especialistas-flex {

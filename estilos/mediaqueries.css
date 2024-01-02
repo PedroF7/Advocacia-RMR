@@ -32,7 +32,38 @@
         font-size: 1.5em;
     }
 
+    /* DIREITO-BPC */
+    section#direito-bpc{
+        background-image: linear-gradient(to right, white, rgb(131, 128, 128));
+    }
+    
+    section#direito-bpc h1{
+        padding-top: 20px;
+    }
+
+    section#direito-bpc .flex{
+        gap: 50px;
+    }
+
+    section#direito-bpc  .box-direito-bpc img{
+        width: 95vw;
+    }
+
+    section#direito-bpc  .box-direito-bpc h2, section#direito-bpc  .box-direito-bpc p{
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    section#direito-bpc  .box-direito-bpc h2{
+        font-size: 4.5vh;
+    }
+
+    section#direito-bpc  .box-direito-bpc p{
+        font-size: 3.6vh;
+    }
+
     /* ESPECIALISTAS */
+
     section.especialistas h1{
         font-size: 2.3em;
     }
@@ -68,6 +99,37 @@
         max-width: 100%;
     }
 
+    /* DIREITO-BPC */
+    section#direito-bpc{
+        background-image: linear-gradient(to right, white, rgb(131, 128, 128));
+    }
+
+
+    section#direito-bpc h1{
+        padding-top: 20px;
+    }
+
+    section#direito-bpc .flex{
+        gap: 50px;
+    }
+
+    section#direito-bpc  .box-direito-bpc img{
+        width: 95vw;
+    }
+
+    section#direito-bpc  .box-direito-bpc h2, section#direito-bpc  .box-direito-bpc p{
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    section#direito-bpc  .box-direito-bpc h2{
+        font-size: 4.5vh;
+    }
+
+    section#direito-bpc  .box-direito-bpc p{
+        font-size: 3.6vh;
+    }
+
     /* ESPECIALISTAS*/
     .especialistas-box{
         width: 45vw;
@@ -97,6 +159,22 @@
     /* MEIO SITE*/
     section.meio-site .txt-meio-site p{
         font-size: 2.2em;
+    }
+
+    /* DIREITO-BPC */
+    section#direito-bpc{
+        background-image: linear-gradient(to right, white, rgb(131, 128, 128));
+    }
+
+
+    section#direito-bpc  .box-direito-bpc h2{
+        font-size: 4vh;
+        padding-top: 25px;
+    }
+
+    section#direito-bpc  .box-direito-bpc p{
+        font-size: 3vh;
+        padding-top: 20px;
     }
 
     /* ESPECIALISTAS*/
