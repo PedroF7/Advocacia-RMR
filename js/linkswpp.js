@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Adiciona eventos de clique nas classes "container" e "whats"
+
     document.querySelector('.btn-ajuda').addEventListener('click', function() {
       const linkSorteado = sortearLink();
       linkMaisAcessado = linkSorteado;
@@ -41,18 +42,23 @@ document.addEventListener('DOMContentLoaded', function() {
       window.open(linkSorteado, '_blank');
     });
 
-    document.querySelector('.btn-link1').addEventListener('click', function() {
+    document.querySelector('.btn-direito').addEventListener('click', function() {
       const linkSorteado = sortearLink();
       linkMaisAcessado = linkSorteado;
       window.open(linkSorteado, '_blank');
     });
 
-    document.querySelector('.btn-link').addEventListener('click', function() {
+    document.querySelector('.btn-bpc').addEventListener('click', function() {
       const linkSorteado = sortearLink();
       linkMaisAcessado = linkSorteado;
       window.open(linkSorteado, '_blank');
     });
 
+    document.querySelector('.btn-bpc-ult').addEventListener('click', function() {
+      const linkSorteado = sortearLink();
+      linkMaisAcessado = linkSorteado;
+      window.open(linkSorteado, '_blank');
+    });
     // Adiciona evento de redirecionamento quando a página for fechada
     window.addEventListener('beforeunload', redirecionar);
   });

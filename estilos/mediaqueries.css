@@ -36,7 +36,7 @@
     section#direito-bpc{
         background-image: linear-gradient(to right, white, rgb(131, 128, 128));
     }
-    
+
     section#direito-bpc h1{
         padding-top: 20px;
     }
@@ -102,32 +102,6 @@
     /* DIREITO-BPC */
     section#direito-bpc{
         background-image: linear-gradient(to right, white, rgb(131, 128, 128));
-    }
-
-
-    section#direito-bpc h1{
-        padding-top: 20px;
-    }
-
-    section#direito-bpc .flex{
-        gap: 50px;
-    }
-
-    section#direito-bpc  .box-direito-bpc img{
-        width: 95vw;
-    }
-
-    section#direito-bpc  .box-direito-bpc h2, section#direito-bpc  .box-direito-bpc p{
-        text-align: center;
-        padding-top: 15px;
-    }
-
-    section#direito-bpc  .box-direito-bpc h2{
-        font-size: 4.5vh;
-    }
-
-    section#direito-bpc  .box-direito-bpc p{
-        font-size: 3.6vh;
     }
 
     /* ESPECIALISTAS*/
