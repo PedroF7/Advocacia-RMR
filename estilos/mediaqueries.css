@@ -15,7 +15,7 @@
 
     /* CABEÇALHO*/
     header{
-        min-height: 96vh;
+        min-height: 90vh;
         padding: 35px 0px 0px 0px;
     }
 
@@ -24,18 +24,14 @@
     }
 
     header{
-        background-image: url(../imagens/background-header-black.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: left center;
+        background-color: black;
     }
 
     .txt-header p{
         padding-top: 25px;
         padding-bottom: 25px;
-        font-size: 1em;
+        font-size: 1.3em;
         text-align: justify;
-        font-size: 1.2em;
         width: 100%;
     }
 
@@ -50,6 +46,10 @@
     }
 
     /* MEIO DO SITE */
+    section.meio-site{
+        padding: 13% 4%;
+    }
+
     section.meio-site .flex{
         align-items: center;
         flex-direction: column;
@@ -157,17 +157,11 @@
     header{
         min-height: 96vh;
         padding: 35px 0px 0px 0px;
+        background-color: black;
     }
 
     header .flex{
         gap: 55px;
-    }
-
-    header{
-        background-image: url(../imagens/background-header-black.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: left center;
     }
 
     .txt-header p{
