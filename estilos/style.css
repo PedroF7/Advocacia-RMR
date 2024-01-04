@@ -28,7 +28,7 @@ button.whats {
     font-size: 2.3em;
     height: 76px;
     width: 70px;
-    border-radius: 50%; /* Keep this for a round button */
+    border-radius: 50%; 
     padding: 10px;
     margin-right: 10px;
     background-color: rgb(41, 203, 41);
@@ -113,6 +113,12 @@ header::before {
     z-index: -1; 
 }
 
+.txt-header{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 header h1{
     font-size: 2.8em;
@@ -122,9 +128,16 @@ header h1{
 
 header p{
     margin-top: 17px;
-    font-size: 2.8em;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-weight: bolder;
-    text-align: center;
+    font-size: 2em;
+    text-align: justify;
+    font-family: 'Aoboshi One', serif;
+}
+
+header .btn-ajuda{
+    margin-top: 25px;
 }
 
 
@@ -132,16 +145,6 @@ header h1 strong{
     padding: 5px;
     border-radius: 25px;
     line-height: 70px;
-}
-
-header p{
-    font-size: 1.8em;
-    padding: 20px;
-    font-family: 'Aoboshi One', serif;
-}
-
-header .btn-ajuda{
-    margin: 6vh;
 }
 
 /* MEIO-DO-SITE */
@@ -161,6 +164,9 @@ section.meio-site .flex{
     line-height: 40px;
 }
 
+.meio-site .txt-meio-site{
+    width: 40%;
+}
 
 .meio-site .txt-meio-site p{
     margin-top: 40px;
@@ -175,59 +181,6 @@ section.meio-site .flex{
 }
 
 /* DIREITO BPC */
-section.direito-bpc{
-    background-color: #562d1fed;
-    color: white;
-    min-height: 70vh;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 40px 5%;
-    margin: auto;
-}
-
-
-section.direito-bpc .flex{
-    gap: 60px;
-    justify-content: center;
-}
-
-.direito-bpc  p,.direito-bpc  h1 {
-    text-align: center;
-    padding-top: 30px;
-    font-weight: bold;
-}
-
-.direito-bpc  h1{
-    font-size: 40px;
-}
-
-section.direito-bpc .pessoas-bpc{
-    padding: 40px;
-    border: 2px solid whitesmoke;
-    box-shadow: 0 0 10px white;
-    border-radius: 20px;
-    margin-top: 45px;
-    transition: .2s;
-    text-align: center;
-}
-
-section.direito-bpc .pessoas-bpc:hover{
-    transform: scale(1.05);
-}
-
-.direito-bpc .pessoas-bpc span{
-    font-size: 50px;
-    color: #00ff08;
-}
-
-.direito-bpc .pessoas-bpc h4{
-    font-size: 23px;
-    margin-top: 10px;
-}
-
-.direito-bpc .pessoas-bpc p{
-    text-align: center;
-    font-size: 17px;
-}
 
 .container-btn{
     text-align: center;
@@ -235,8 +188,7 @@ section.direito-bpc .pessoas-bpc:hover{
 }
 
 section#direito-bpc{
-    padding: 5% 4%;
-    margin: auto;
+    padding: 3% 4%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     background-image:  url(../imagens/natureza-morta-com-a-balanca-da-justica\ \(2\).jpg);
@@ -248,16 +200,18 @@ section#direito-bpc{
 
 section#direito-bpc h1{
     text-align: center;
+    background-color: white;
+    border-radius: 1px 30px 30px 1px;
+    box-shadow: 6px 6px 2px black;
     font-size: 2.7em;
     font-weight: bolder;
     text-transform: uppercase;
-    padding-bottom: 25px;
+    padding: 15px;
 }
 
 section#direito-bpc .flex{
     align-items: center;
     justify-content: center;
-    flex-direction: row;
     flex-wrap: wrap;
     margin-top: 35px;
     gap: 90px;
@@ -269,6 +223,13 @@ section#direito-bpc  .box-direito-bpc img{
     width: 550px;
     filter: drop-shadow(7px 7px 1px rgb(97, 96, 96));
     transition: .2s;
+}
+
+section#direito-bpc .flex-line-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
 }
 
 section#direito-bpc  .box-direito-bpc{
@@ -316,7 +277,6 @@ section.especialistas .especialistas-box {
     transition: .2s;
     box-shadow: 0 0 12px white;
     text-align: center;
-    
 }
 
 .especialistas h1 {
@@ -334,7 +294,7 @@ section.especialistas .especialistas-box {
 }
 
 section.especialistas .especialistas-box:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     box-shadow: 0 0 15px white;
 }
 
@@ -350,7 +310,7 @@ section.especialistas .especialistas-box:hover {
 
 footer{
     margin: auto;
-    padding: 40px 4%;
+    padding: 5% 5%;
     box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.139);
     background-color: black;
     color: white;
