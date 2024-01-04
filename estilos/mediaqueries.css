@@ -153,6 +153,16 @@
     }
 
     /* CABEÇALHO*/
+    /* CABEÇALHO*/
+    header{
+        min-height: 96vh;
+        padding: 35px 0px 0px 0px;
+    }
+
+    header .flex{
+        gap: 55px;
+    }
+
     header{
         background-image: url(../imagens/background-header-black.jpg);
         background-repeat: no-repeat;
@@ -160,12 +170,52 @@
         background-position: left center;
     }
 
+    .txt-header p{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 1em;
+        text-align: justify;
+        font-size: 1.2em;
+        width: 100%;
+    }
+
+    header .txt-header h1{
+        width: 300px;
+        font-size: 2.2em;
+        text-align: justify;
+    }
+
+    header .btn-ajuda{
+        margin: 25px;
+    }
+
     /* MEIO SITE*/
+    section.meio-site .flex{
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0px;
+    }
+
     section.meio-site img{
         max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .meio-site .txt-meio-site{
+        width: 100%;
+    }
+
+    .meio-site .txt-meio-site p{
+        font-size: 1.5em;
+        padding: 0px 3%;
     }
 
     /* DIREITO-BPC */
+    section#direito-bpc{
+        padding: 3% 4%;
+    }
+
     section#direito-bpc  .box-direito-bpc{
         padding: 7px;
     }
@@ -175,15 +225,16 @@
     }
     
     section#direito-bpc h1{
-        padding-top: 20px;
+        margin-top: 20px;
     }
 
     section#direito-bpc .flex{
-        gap: 50px;
+        gap: 25px;
     }
 
     section#direito-bpc  .box-direito-bpc img{
-        width: 95vw;
+        margin-top: 12px;
+        width: 80vw;
     }
 
     section#direito-bpc  .box-direito-bpc h2, section#direito-bpc  .box-direito-bpc p{
@@ -192,11 +243,11 @@
     }
 
     section#direito-bpc  .box-direito-bpc h2{
-        font-size: 4.5vh;
+        font-size: 4.1vh;
     }
 
     section#direito-bpc  .box-direito-bpc p{
-        font-size: 3.6vh;
+        font-size: 3.2vh;
     }
 
     /* ESPECIALISTAS*/
@@ -216,7 +267,7 @@
 
   
   /* tablets */
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  @media only screen and (min-width: 767px) and (max-width: 1024px) {
     /*CONFIGURAÇÕES GERAIS */
     .flex, .flex-line-2{
         flex-direction: column-reverse;
