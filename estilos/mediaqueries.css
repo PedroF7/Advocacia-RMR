@@ -135,6 +135,7 @@
     }
 
     footer .line-footer{
+        align-items: center;
         justify-content: center;
         flex-direction: column;
     }
@@ -254,6 +255,7 @@
 
     /* FOOTER */
     footer .line-footer{
+        align-items: center;
         justify-content: center;
         flex-direction: column;
     }
