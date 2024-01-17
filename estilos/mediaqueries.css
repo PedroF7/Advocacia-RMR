@@ -15,7 +15,7 @@
 
     /* CABEÇALHO*/
     header{
-        min-height: 90vh;
+        min-height: 83vh;
         padding: 35px 0px 0px 0px;
     }
 
@@ -92,6 +92,10 @@
         gap: 25px;
     }
 
+    section#direito-bpc .flex-line-2{
+        gap: 23px;
+    }
+
     section#direito-bpc  .box-direito-bpc img{
         margin-top: 12px;
         width: 80vw;
@@ -156,7 +160,7 @@
     /* CABEÇALHO*/
     /* CABEÇALHO*/
     header{
-        min-height: 96vh;
+        min-height: 87vh;
         padding: 35px 0px 0px 0px;
         background-color: black;
     }
@@ -223,7 +227,7 @@
         margin-top: 20px;
     }
 
-    section#direito-bpc .flex{
+    section#direito-bpc .flex, section#direito-bpc .flex-line-2{
         gap: 25px;
     }
 
@@ -266,7 +270,7 @@
   @media only screen and (min-width: 767px) and (max-width: 1024px) {
     /*CONFIGURAÇÕES GERAIS */
     .flex, .flex-line-2{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     /* CABEÇALHO */
@@ -282,7 +286,7 @@
 
     /* MEIO SITE*/
     section.meio-site{
-        padding: 3% 4%;
+        padding: 9% 4%;
     }
 
     section.meio-site .flex{
@@ -370,8 +374,8 @@
     }
 
     footer .line-footer iframe{
-        width: 450px;
-        height: 240px;
+        width: 500px;
+        height: 250px;
     }
   }
 
