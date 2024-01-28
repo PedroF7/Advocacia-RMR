@@ -17,14 +17,17 @@
     header{
         min-height: 83vh;
         padding: 35px 0px 0px 0px;
+        background-color: black;
     }
 
     header .flex{
-        gap: 55px;
+        gap: 30px;
     }
 
-    header{
-        background-color: black;
+    header.txt-header{
+        display: flex;
+        flex-direction: column;
+        gap: 90px;
     }
 
     .txt-header p{
@@ -39,6 +42,21 @@
         width: 300px;
         font-size: 2.2em;
         text-align: justify;
+    }
+
+    .txt-header strong{
+        font-size: 1.4em;
+        margin: 0;
+    }
+
+    .interface-video iframe{
+        width: 750px;
+        height: 300px;
+    }
+
+    header h1 strong{
+        line-height: 50px;
+        display: flex;
     }
 
     header .btn-ajuda{
@@ -158,7 +176,6 @@
     }
 
     /* CABEÇALHO*/
-    /* CABEÇALHO*/
     header{
         min-height: 87vh;
         padding: 35px 0px 0px 0px;
@@ -167,6 +184,14 @@
 
     header .flex{
         gap: 55px;
+    }
+
+    header h1 strong{
+        line-height: 50px;
+    }
+
+    .txt-header{
+        text-align: center;
     }
 
     .txt-header p{
@@ -181,7 +206,7 @@
     header .txt-header h1{
         width: 300px;
         font-size: 2.2em;
-        text-align: justify;
+        text-align: center;
     }
 
     header .btn-ajuda{
@@ -276,6 +301,11 @@
     /* CABEÇALHO */
     header{
         min-height: 94vh;
+    }
+
+    header h1 strong{
+        line-height: 50px;
+        display: flex;
     }
 
     header .btn-ajuda {

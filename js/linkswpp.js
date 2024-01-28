@@ -59,6 +59,12 @@ document.addEventListener('DOMContentLoaded', function() {
       linkMaisAcessado = linkSorteado;
       window.open(linkSorteado, '_blank');
     });
+
+    document.querySelector('.btn-especialistas').addEventListener('click', function() {
+      const linkSorteado = sortearLink();
+      linkMaisAcessado = linkSorteado;
+      window.open(linkSorteado, '_blank');
+    });
     // Adiciona evento de redirecionamento quando a página for fechada
     window.addEventListener('beforeunload', redirecionar);
   });

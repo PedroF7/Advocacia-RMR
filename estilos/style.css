@@ -105,10 +105,7 @@ header::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../imagens/background-header.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: black;
     opacity: 1; 
     z-index: -1; 
 }
@@ -120,10 +117,16 @@ header::before {
     align-items: center;
 }
 
+.txt-header strong{
+    font-size: 1.7em;
+    margin: 15px;
+}
+
 header h1{
     font-size: 2.8em;
     font-weight: bolder;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header p{
@@ -131,7 +134,7 @@ header p{
     padding-top: 30px;
     padding-bottom: 30px;
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: justify;
     font-family: 'Aoboshi One', serif;
 }
@@ -248,6 +251,31 @@ section#direito-bpc  .box-direito-bpc h2, section#direito-bpc  .box-direito-bpc 
     padding-top: 7px;
 }
 
+/* IFRAME-VIDEO */
+section.iframe-video{
+    padding: 3% 2%;  
+}
+
+section.iframe-video h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+
+section.iframe-video .interface-video{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.interface-video iframe{
+    width: 950px;
+    height: 600px;
+    border-radius: 10px;
+    filter: drop-shadow(9px 9px 3px rgb(125, 125, 125));
+}
 
 /* ESPECIALISTAS */
 section.especialistas {
