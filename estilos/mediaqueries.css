@@ -187,7 +187,7 @@
     }
 
     header h1 strong{
-        line-height: 50px;
+        line-height: 72px;
     }
 
     .txt-header{
@@ -205,8 +205,24 @@
 
     header .txt-header h1{
         width: 300px;
-        font-size: 2.2em;
+        font-size: 1.5em;
         text-align: center;
+    }
+
+    header .txt-header h1{
+        width: 300px;
+        font-size: 2.2em;
+        text-align: justify;
+    }
+
+    .txt-header strong{
+        font-size: 1.4em;
+        margin: 0;
+    }
+
+    .interface-video iframe{
+        width: 750px;
+        height: 300px;
     }
 
     header .btn-ajuda{
@@ -300,12 +316,11 @@
 
     /* CABEÇALHO */
     header{
-        min-height: 94vh;
+        min-height: 100vh;
     }
 
-    header h1 strong{
-        line-height: 50px;
-        display: flex;
+    .txt-header strong{
+        margin: 0;
     }
 
     header .btn-ajuda {
@@ -389,6 +404,11 @@
         height: 78px;
     }
     
+    /* IFRAME */
+    section.iframe-video h1{
+        font-size: 4em;
+    }
+
     /* FOOTER */
     footer .line-footer{
         justify-content: center;
