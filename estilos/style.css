@@ -37,15 +37,10 @@ button.whats {
     cursor: pointer;
     z-index: 999;
     transition: .2s;
+    animation: flutuar 0.6s ease-in-out infinite alternate;
 }
 
 button.whats:hover {
-    transform: scale(1.10);
-    box-shadow: 1px 1px 1px #00ff08;
-}
-
-
-button.whats:hover{
     transform: scale(1.10);
     box-shadow: 1px 1px 1px #00ff08;
 }

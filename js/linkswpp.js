@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Links a serem sorteados
     const links = [
-      "https://api.whatsapp.com/send?phone=5521988604191",
-      "https://api.whatsapp.com/send?phone=5521997401505",
-      "https://api.whatsapp.com/send?phone=5521998705309",
+      "https:wa.me/5521998705309/?text=Quero%20saber%20se%20tenho%20direito%20ao%20bpc-loas",
+      "https:wa.me/5521997401505/?text=Quero%20saber%20se%20tenho%20direito%20ao%20bpc-loas",
+      "https:wa.me/5521988604191/?text=Quero%20saber%20se%20tenho%20direito%20ao%20bpc-loas"
     ];
+
+    
 
     // Variável para armazenar o link mais acessado
     let linkMaisAcessado = null;
