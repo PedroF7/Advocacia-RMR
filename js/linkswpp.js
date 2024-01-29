@@ -2,8 +2,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Links a serem sorteados
     const links = [
       "https:api.whatsapp.com/send/?phone=5521998705309&text=Quero+saber+se+tenho+direito+ao+bpc-loas&type=phone_number&app_absent=0",
+
       "https:api.whatsapp.com/send/?phone=5521997401505&text=Quero+saber+se+tenho+direito+ao+bpc-loas&type=phone_number&app_absent=0",
-      "https:api.whatsapp.com/send/?phone=5521988604191&text=Quero+saber+se+tenho+direito+ao+bpc-loas&type=phone_number&app_absent=0",
+
+      "https:api.whatsapp.com/send/?phone=5521988604191&text=Quero+saber+se+tenho+direito+ao+bpc-loas&type=phone_number&app_absent=0"
     ];
     
 
